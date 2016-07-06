@@ -1,3 +1,4 @@
+# fastlane_core must be required before 'pilot/features' which depends on it for FastlaneCore::Feature
 require "fastlane_core"
 
 require "json"
