@@ -1,5 +1,8 @@
+require "fastlane_core"
+
 require "json"
 require "pilot/version"
+require 'pilot/features'
 require "pilot/options"
 require "pilot/manager"
 require "pilot/build_manager"
@@ -7,7 +10,6 @@ require "pilot/tester_manager"
 require "pilot/tester_importer"
 require "pilot/tester_exporter"
 
-require "fastlane_core"
 require "spaceship"
 require "terminal-table"
 
